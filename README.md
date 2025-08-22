@@ -7,17 +7,25 @@ The site showcases company profile, offered courses, services, facilities, galle
 📋 Features
 
 ✅ Modern & responsive design (mobile, tablet, desktop)
+
 ✅ Multi-page structure (Home, About, Courses, Services, Facilities, Gallery, Contact)
+
 ✅ Interactive navigation bar
+
 ✅ Image gallery with hover effects
+
 ✅ Courses and services with structured sections
+
 ✅ Contact form (with basic validation in JavaScript)
+
 ✅ SEO-friendly meta tags
 
 🛠️ Technologies Used
 
 HTML5 – Structure
+
 CSS3 – Styling & responsiveness
+
 JavaScript (Vanilla) – Interactivity & validation
 
 📂 Project Structure
@@ -56,8 +64,11 @@ cd M-Tech-Website
 🎯 Future Improvements
 
 Contact form backend (PHP / Node.js / Django)
+
 Dynamic course & service management
+
 Blog/News section
+
 Dark mode option
 
 📞 Contact
