@@ -5,6 +5,7 @@ This project is designed for M-Tech Production & Marketing, an IT training and s
 The site showcases company profile, offered courses, services, facilities, gallery, and contact details.
 
 📋 Features
+
 ✅ Modern & responsive design (mobile, tablet, desktop)
 ✅ Multi-page structure (Home, About, Courses, Services, Facilities, Gallery, Contact)
 ✅ Interactive navigation bar
@@ -14,11 +15,13 @@ The site showcases company profile, offered courses, services, facilities, galle
 ✅ SEO-friendly meta tags
 
 🛠️ Technologies Used
+
 HTML5 – Structure
 CSS3 – Styling & responsiveness
 JavaScript (Vanilla) – Interactivity & validation
 
 📂 Project Structure
+
 M-Tech-Website/
 │
 ├── index.html
@@ -41,19 +44,24 @@ M-Tech-Website/
     ├── ...
     
 🚀 How to Run Locally
+
 1.Clone the repository:
 git clone https://github.com/UmamaAbbasi/M-Tech-Website.git
+
 2.Navigate to the project folder:
 cd M-Tech-Website
+
 3.Open index.html in your browser
 
 🎯 Future Improvements
+
 Contact form backend (PHP / Node.js / Django)
 Dynamic course & service management
 Blog/News section
 Dark mode option
 
 📞 Contact
+
 M-Tech Production & Marketing
 Providing professional IT training & digital services in Haripur.
 
