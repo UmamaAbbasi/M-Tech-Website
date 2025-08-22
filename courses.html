@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Courses — M‑Tech</title>
+  <meta name="description" content="Basic to Advanced IT courses: Web Dev, Graphic Design, Python, SEO, Data Analytics & more." />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main">
+      <a class="brand" href="index.html"><img src="images/logo.png" alt="M‑Tech logo" /><span>M‑Tech</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
+      <ul id="nav-menu" class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+        <li><a class="active" href="courses.html">Courses</a></li><li><a href="services.html">Services</a></li>
+        <li><a href="facilities.html">Facilities</a></li><li><a href="gallery.html">Gallery</a></li>
+        <li><a class="btn btn-small" href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="section">
+    <h1>Courses</h1>
+
+    <div class="filters">
+      <input id="course-search" type="search" placeholder="Search courses…" aria-label="Search courses" />
+      <div class="chip-group" role="group" aria-label="Filter by level">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="basic">Basic & Professional</button>
+        <button class="chip" data-filter="advanced">Advanced & Specialized</button>
+      </div>
+    </div>
+
+    <div id="course-grid" class="grid-3">
+      <!-- Basic & Professional -->
+      <article class="course card" data-level="basic" data-tags="graphic design design">
+        <h3>Graphic Designing</h3>
+        <p>Design fundamentals, branding, and tools.</p>
+        <div class="badges"><span class="badge">8 weeks</span><span class="badge">Beginner</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Graphic%20Designing">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="basic" data-tags="video editing animation">
+        <h3>Video Editing & Animation</h3>
+        <p>Editing workflows, effects, motion basics.</p>
+        <div class="badges"><span class="badge">8 weeks</span><span class="badge">Beginner</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Video%20Editing%20%26%20Animation">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="basic" data-tags="ms office excel powerpoint">
+        <h3>MS Office Essentials</h3>
+        <p>Word, Excel, PowerPoint productivity.</p>
+        <div class="badges"><span class="badge">6 weeks</span><span class="badge">Beginner</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=MS%20Office%20Essentials">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="basic" data-tags="web development html css javascript">
+        <h3>Web Development (HTML, CSS, JS)</h3>
+        <p>Responsive sites with modern practices.</p>
+        <div class="badges"><span class="badge">10 weeks</span><span class="badge">Beginner</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Web%20Development">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="basic" data-tags="digital marketing social media">
+        <h3>Digital Marketing</h3>
+        <p>Campaigns, analytics, content planning.</p>
+        <div class="badges"><span class="badge">8 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Digital%20Marketing">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="basic" data-tags="social media management">
+        <h3>Social Media Management</h3>
+        <p>Content calendars & community growth.</p>
+        <div class="badges"><span class="badge">6 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Social%20Media%20Management">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="basic" data-tags="ecommerce store management">
+        <h3>E‑Commerce Store Management</h3>
+        <p>Store setup & optimization.</p>
+        <div class="badges"><span class="badge">6 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=E-Commerce%20Store%20Management">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="basic" data-tags="content writing">
+        <h3>Content Writing</h3>
+        <p>Copywriting, blogs, and tone.</p>
+        <div class="badges"><span class="badge">6 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Content%20Writing">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="basic" data-tags="wordpress">
+        <h3>WordPress Development</h3>
+        <p>Themes, plugins, and deployment.</p>
+        <div class="badges"><span class="badge">8 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=WordPress%20Development">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="basic" data-tags="computer basics it literacy">
+        <h3>Computer Basics & IT Literacy</h3>
+        <p>Foundational computer skills.</p>
+        <div class="badges"><span class="badge">4 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Computer%20Basics%20%26%20IT%20Literacy">Enroll Now</a>
+      </article>
+
+      <!-- Advanced & Specialized -->
+      <article class="course card" data-level="advanced" data-tags="ui ux design">
+        <h3>UI/UX Design Mastery</h3>
+        <p>Design systems, prototyping, usability.</p>
+        <div class="badges"><span class="badge">10 weeks</span><span class="badge">Advanced</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=UI%2FUX%20Design%20Mastery">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="advanced" data-tags="video production advanced motion graphics">
+        <h3>Advanced Video Production</h3>
+        <p>Lighting, color, and pro workflows.</p>
+        <div class="badges"><span class="badge">10 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Advanced%20Video%20Production">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="advanced" data-tags="full stack web development">
+        <h3>Full‑Stack Web Development</h3>
+        <p>Frontend + Backend fundamentals.</p>
+        <div class="badges"><span class="badge">12 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Full-Stack%20Web%20Development">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="advanced" data-tags="seo search engine optimization">
+        <h3>Search Engine Optimization (SEO)</h3>
+        <p>Technical SEO & content strategy.</p>
+        <div class="badges"><span class="badge">8 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=SEO">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="advanced" data-tags="digital marketing strategies advanced">
+        <h3>Advanced Digital Marketing Strategies</h3>
+        <p>Funnel building & analytics.</p>
+        <div class="badges"><span class="badge">10 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Advanced%20Digital%20Marketing">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="advanced" data-tags="motion graphics">
+        <h3>Motion Graphics</h3>
+        <p>2D/3D motion & compositing.</p>
+        <div class="badges"><span class="badge">8 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Motion%20Graphics">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="advanced" data-tags="cybersecurity">
+        <h3>Cybersecurity Fundamentals</h3>
+        <p>Threats, controls, and hardening.</p>
+        <div class="badges"><span class="badge">8 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Cybersecurity%20Fundamentals">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="advanced" data-tags="python programming">
+        <h3>Python Programming</h3>
+        <p>Core syntax to mini‑projects.</p>
+        <div class="badges"><span class="badge">8 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Python%20Programming">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="advanced" data-tags="data analytics excel power bi">
+        <h3>Data Analytics with Excel & Power BI</h3>
+        <p>Dashboards & insights.</p>
+        <div class="badges"><span class="badge">8 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Data%20Analytics%20with%20Excel%20%26%20Power%20BI">Enroll Now</a>
+      </article>
+
+      <article class="course card" data-level="advanced" data-tags="presentation design">
+        <h3>Professional Presentation Design</h3>
+        <p>Storytelling & slide design.</p>
+        <div class="badges"><span class="badge">6 weeks</span></div>
+        <a class="btn btn-small enroll" href="contact.html?course=Professional%20Presentation%20Design">Enroll Now</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer"><p class="copy">© 2025 M‑Tech</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
